@@ -1,0 +1,12 @@
+# VocalFlow Windows - Python dependencies
+# Install with: python -m pip install -r requirements.txt
+# NOTE: Requires Python 3.10+ (tested on 3.12, 3.13, 3.14)
+
+numpy>=2.0          # Python 3.14 compatible (1.x does NOT work on 3.14)
+sounddevice>=0.4.7  # microphone capture
+requests>=2.31.0    # Deepgram + Groq REST API calls
+Pillow>=10.0.0      # tray icon drawing
+pystray>=0.19.5     # Windows system-tray icon
+keyboard>=0.13.5    # global hotkey (requires admin)
+pyperclip>=1.8.2    # clipboard read/write
+pyautogui>=0.9.54   # Ctrl+V simulation
