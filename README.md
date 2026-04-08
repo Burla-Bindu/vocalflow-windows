@@ -213,3 +213,15 @@ MIT — same as the original [VocalFlow macOS app](https://github.com/Vocallabsa
 - **Original macOS app**: [Vocallabsai/vocalflow](https://github.com/Vocallabsai/vocalflow)
 - **Transcription**: [Deepgram](https://deepgram.com)
 - **LLM post-processing**: [Groq](https://groq.com)
+
+# VocalFlow Windows
+A real-time voice-to-text Windows tray application using Deepgram speech recognition and Groq AI post-processing.
+
+## Setup Instructions
+1. Download the project ZIP
+2. Extract the folder
+3. Open config.py
+4. Add your Deepgram and Groq API keys
+5. Run setup.bat
+6. Run run.bat as Administrator
+7. Hold Right Alt and speak to type
